@@ -32,15 +32,15 @@
     </resources>
     <policyIDs>
         <entry>
-            <key>json</key>
-            <value>JSON_THREAT</value>
+            <key>regex</key>
+            <value>REGEX_PROTECTION</value>
         </entry>
     </policyIDs>
     <ProjectPolicies/>
     <dummyProjectPoliciesForJSON/>
     <creationDate>2020/08/10 15:30:52</creationDate>
     <includeVersionInPath>true</includeVersionInPath>
-    <lastModified>2020/08/10 16:17:31</lastModified>
+    <lastModified>2020/08/10 16:19:30</lastModified>
     <projectDocument>
         <basePath>/t/1.0</basePath>
         <resourceDocs>

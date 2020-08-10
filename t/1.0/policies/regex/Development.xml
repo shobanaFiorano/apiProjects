@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<regexProtectionConfiguration policyName="REGEX_PROTECTION" policyType="SECURITY">
+    <policyInstanceName>regex</policyInstanceName>
+    <checkURIPath>false</checkURIPath>
+    <VariableRules/>
+    <ignoreUnresolvedVariables>false</ignoreUnresolvedVariables>
+    <JSONPayload>false</JSONPayload>
+    <XMLPayload>false</XMLPayload>
+    <xmlPayloadNamespace/>
+</regexProtectionConfiguration>
