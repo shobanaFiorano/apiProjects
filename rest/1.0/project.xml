@@ -7,12 +7,7 @@
             <value>
                 <Policies/>
                 <allowChildPaths>false</allowChildPaths>
-                <dummyPolicyConfigurationsForJson>
-                    <entry>
-                        <key>PROXY_REQUEST</key>
-                        <value/>
-                    </entry>
-                </dummyPolicyConfigurationsForJson>
+                <dummyPolicyConfigurationsForJson/>
                 <endpoints>
                     <entry>
                         <key>DefaultTarget</key>
@@ -35,12 +30,17 @@
             </value>
         </entry>
     </resources>
-    <policyIDs/>
+    <policyIDs>
+        <entry>
+            <key>xml</key>
+            <value>XML_THREAT</value>
+        </entry>
+    </policyIDs>
     <ProjectPolicies/>
     <dummyProjectPoliciesForJSON/>
     <creationDate>2020/08/05 15:50:25</creationDate>
     <includeVersionInPath>true</includeVersionInPath>
-    <lastModified>2020/08/05 15:50:25</lastModified>
+    <lastModified>2020/08/10 15:31:59</lastModified>
     <projectDocument>
         <basePath>/rest/1.0</basePath>
         <resourceDocs>
@@ -71,7 +71,7 @@
         </entry>
     </routingRules>
     <rule>
-        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~rest and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
+        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~/rest and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
     </rule>
     <status>ACTIVE</status>
     <traceEnabled>false</traceEnabled>
