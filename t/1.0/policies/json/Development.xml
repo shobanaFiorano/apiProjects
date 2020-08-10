@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jsonThreatConfiguration policyName="JSON_THREAT" policyType="SECURITY">
+    <policyInstanceName>json</policyInstanceName>
+    <arrayElementCount>-1</arrayElementCount>
+    <containerDepth>-1</containerDepth>
+    <objectEntryCount>-1</objectEntryCount>
+    <objectEntryNameLength>-1</objectEntryNameLength>
+    <stringValueLength>-1</stringValueLength>
+</jsonThreatConfiguration>
