@@ -30,14 +30,19 @@
             </value>
         </entry>
     </resources>
-    <policyIDs/>
+    <policyIDs>
+        <entry>
+            <key>xml</key>
+            <value>XML_THREAT</value>
+        </entry>
+    </policyIDs>
     <ProjectPolicies/>
     <dummyProjectPoliciesForJSON/>
-    <creationDate>2020/08/25 16:31:36</creationDate>
+    <creationDate>2020/08/05 15:50:25</creationDate>
     <includeVersionInPath>true</includeVersionInPath>
-    <lastModified>2020/08/25 16:31:37</lastModified>
+    <lastModified>2020/08/10 15:31:59</lastModified>
     <projectDocument>
-        <basePath>/t/1.0</basePath>
+        <basePath>/rest/1.0</basePath>
         <resourceDocs>
             <entry>
                 <key>DefaultResource</key>
@@ -52,7 +57,7 @@
         <status>ACTIVE</status>
         <version>1.0</version>
     </projectDocument>
-    <projectID>t</projectID>
+    <projectID>rest</projectID>
     <projectVersion>1.0</projectVersion>
     <proxyAsEndPoint>false</proxyAsEndPoint>
     <referredPolicies/>
@@ -66,7 +71,7 @@
         </entry>
     </routingRules>
     <rule>
-        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~t and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
+        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~/rest and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
     </rule>
     <status>ACTIVE</status>
     <traceEnabled>false</traceEnabled>

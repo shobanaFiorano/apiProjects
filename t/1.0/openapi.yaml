@@ -9,9 +9,6 @@ paths:
   /:
     get:
       tags: []
-      summary: ""
-      description: ""
-      operationId: ""
       parameters: []
       responses:
         200:
@@ -19,4 +16,5 @@ paths:
           content:
             text/plain:
               schema: {}
-components: {}
+components:
+  extensions: {}
