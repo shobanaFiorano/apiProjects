@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<verifyAPIKeyConfiguration policyName="VERIFY_API_KEY" policyType="SECURITY">
-    <policyInstanceName>VerifyApiKeyPolicy</policyInstanceName>
-    <keyHolder>
-        <defaultValue>F-BCmcqApoZeWaDCCRHFTlMB</defaultValue>
-        <name>apiKey</name>
-        <type>PARAMETER</type>
-    </keyHolder>
-</verifyAPIKeyConfiguration>

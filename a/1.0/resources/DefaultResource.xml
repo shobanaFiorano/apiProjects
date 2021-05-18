@@ -2,7 +2,12 @@
 <ResourceConfiguration>
     <Policies/>
     <allowChildPaths>false</allowChildPaths>
-    <dummyPolicyConfigurationsForJson/>
+    <dummyPolicyConfigurationsForJson>
+        <entry>
+            <key>PROXY_REQUEST</key>
+            <value/>
+        </entry>
+    </dummyPolicyConfigurationsForJson>
     <endpoints>
         <entry>
             <key>DefaultTarget</key>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ipBasedFilterConfiguration policyName="IP_BASED_FILTER" policyType="SECURITY">
-    <policyInstanceName>ip</policyInstanceName>
-    <allowedIPwithMask>192.168.2.251/2</allowedIPwithMask>
-    <deniedIPwithMask>192.168.2.164/2</deniedIPwithMask>
-    <noMatchRule>allow</noMatchRule>
-    <type>ipv4</type>
-</ipBasedFilterConfiguration>

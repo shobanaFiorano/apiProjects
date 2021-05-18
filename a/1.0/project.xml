@@ -7,7 +7,12 @@
             <value>
                 <Policies/>
                 <allowChildPaths>false</allowChildPaths>
-                <dummyPolicyConfigurationsForJson/>
+                <dummyPolicyConfigurationsForJson>
+                    <entry>
+                        <key>PROXY_REQUEST</key>
+                        <value/>
+                    </entry>
+                </dummyPolicyConfigurationsForJson>
                 <endpoints>
                     <entry>
                         <key>DefaultTarget</key>
@@ -30,27 +35,12 @@
             </value>
         </entry>
     </resources>
-    <policyIDs>
-        <entry>
-            <key>verify</key>
-            <value>VERIFY_API_KEY</value>
-        </entry>
-    </policyIDs>
-    <ProjectPolicies>
-        <Entry>
-            <PolicyScope>PROXY_RESPONSE</PolicyScope>
-            <PolicyID>verify</PolicyID>
-        </Entry>
-    </ProjectPolicies>
-    <dummyProjectPoliciesForJSON>
-        <entry>
-            <key>PROXY_RESPONSE</key>
-            <value/>
-        </entry>
-    </dummyProjectPoliciesForJSON>
-    <creationDate>2021/05/17 12:07:00</creationDate>
+    <policyIDs/>
+    <ProjectPolicies/>
+    <dummyProjectPoliciesForJSON/>
+    <creationDate>2021/05/18 19:37:09</creationDate>
     <includeVersionInPath>true</includeVersionInPath>
-    <lastModified>2021/05/17 18:35:48</lastModified>
+    <lastModified>2021/05/18 19:37:09</lastModified>
     <projectDocument>
         <basePath>/a/1.0</basePath>
         <resourceDocs>
@@ -81,7 +71,7 @@
         </entry>
     </routingRules>
     <rule>
-        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~/a and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
+        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~a and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
     </rule>
     <status>ACTIVE</status>
     <traceEnabled>false</traceEnabled>
