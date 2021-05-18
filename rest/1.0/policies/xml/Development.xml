@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlThreatConfiguration policyName="XML_THREAT" policyType="SECURITY">
+    <policyInstanceName>xml</policyInstanceName>
+    <attributeCountPerElement>-1</attributeCountPerElement>
+    <attributeNameLength>-1</attributeNameLength>
+    <attributeValueLength>-1</attributeValueLength>
+    <childCount>-1</childCount>
+    <commentLength>-1</commentLength>
+    <elementLength>-1</elementLength>
+    <namespaceCountPerElement>-1</namespaceCountPerElement>
+    <namespacePrefixLength>-1</namespacePrefixLength>
+    <namespaceUriLength>-1</namespaceUriLength>
+    <nodeDepth>-1</nodeDepth>
+    <processingInstructionDataLength>-1</processingInstructionDataLength>
+    <processingInstructionTargetLength>-1</processingInstructionTargetLength>
+    <textLength>-1</textLength>
+    <validate>true</validate>
+</xmlThreatConfiguration>
