@@ -27,5 +27,5 @@
         <useSSL>false</useSSL>
     </sslConfiguration>
     <targetMethod>GET</targetMethod>
-    <targetURI>http://c</targetURI>
+    <targetURI>http://d</targetURI>
 </targetServiceConfiguration>
